@@ -1,5 +1,6 @@
 import Card from "@/components/common/Card";
-import Header from "@/interfaces/layout/Header";
+import PostModal from "@/components/common/PostModal";
+import Header from "@/components/layout/Header";
 import React from "react";
 
 export default function Home() {
@@ -7,7 +8,8 @@ export default function Home() {
     <div>
       <Header />
       <h1>Welcome to the Home Page</h1>
-      <Card title="Home Page" content="This is the content of the card." />
+      <Card title="Home Page" content="Munirat page content goes here." />
+      <PostModal title="New Post" content="New post" />
     </div>
   );
 }
