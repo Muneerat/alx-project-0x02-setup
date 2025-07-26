@@ -1,5 +1,5 @@
 import Card from "@/components/common/Card";
-import Header from "@/components/layout/Header";
+import Header from "@/interfaces/layout/Header";
 import React from "react";
 
 export default function Home() {
