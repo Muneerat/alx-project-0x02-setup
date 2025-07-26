@@ -1,4 +1,4 @@
-interface HeaderProps {
+interface CardProps {
   title: string;
-  onMenuToggle: () => void;
+  content: string;
 }

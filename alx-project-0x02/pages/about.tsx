@@ -1,3 +1,4 @@
+import Card from "@/components/common/Card";
 import Header from "@/components/layout/Header";
 import React from "react";
 
@@ -6,6 +7,10 @@ export default function About() {
     <div>
       <Header />
       <h1>About Us</h1>
+      <Card
+        title="About Title"
+        content="This is the content of the about card."
+      />
     </div>
   );
 }
