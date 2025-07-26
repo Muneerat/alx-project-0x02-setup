@@ -1,3 +1,4 @@
+import { CardProps } from "@/interfaces";
 import React from "react";
 
 export default function PostModal({ title, content }: CardProps) {

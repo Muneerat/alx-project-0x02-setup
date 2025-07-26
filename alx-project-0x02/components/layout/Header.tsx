@@ -1,14 +1,21 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Header() {
   return (
-    <nav>
-      <ul>
+    <nav className="bg-red-300">
+      <ul className="flex justify-between">
         <li>
-          <a href="/home">Home</a>
+          <Link href="/home">Home</Link>
         </li>
         <li>
-          <a href="/about">About</a>
+          <Link href="/about">About</Link>
+        </li>
+        <li>
+          <Link href="/posts">Post</Link>
+        </li>
+        <li>
+          <Link href="/users">Users</Link>
         </li>
       </ul>
     </nav>
