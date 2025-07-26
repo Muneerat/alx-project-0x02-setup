@@ -5,6 +5,13 @@ export interface CardProps {
 export interface ButtonProps {
   title: string;
   styles?: string;
+  size?: string;
+  shape?: string;
+  small?: string;
+  "rounded-sm"?: string;
+  "rounded-md"?: string;
+  medium?: string;
+  largE?: string;
 }
 
 export interface PostProps {
