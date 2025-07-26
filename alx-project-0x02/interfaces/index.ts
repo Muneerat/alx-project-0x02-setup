@@ -11,7 +11,7 @@ export interface ButtonProps {
   "rounded-sm"?: string;
   "rounded-md"?: string;
   medium?: string;
-  largE?: string;
+  large?: string;
 }
 
 export interface PostProps {
